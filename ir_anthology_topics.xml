@@ -9,7 +9,7 @@
 	<description>  Which papers include research on sentiment analysis in informational retrieval </description>
 	<narrative> Relevant papers discuss techniques of sentiment analysis (e.g. multi-model sentiment analysis using neural networks). Not relevant are papers on analysis that involving sentiment analysis. Not relevant are papers on analysis of factual statements.</narrative>
    </topic>
-   <topic number=3">
+   <topic number="3">
 	<title>informational retrieval using neural networks</title>
 	<description>  Which papers include research on using neural networks in informational retrieval </description>
 	<narrative> Relevant papers discuss using neural networks to improve the effectiveness of information retrieval systems (e.g. natural language processing, deep learning and other machine learning approaches). Not relevant are papers on other types of machine learning or artificial intelligence that are to specifically designed for information retrieval (e.g. reinforcement learning or computer vision).</narrative>
