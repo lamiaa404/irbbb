@@ -1,19 +1,16 @@
 import ir_datasets
 from ir_datasets.formats import JsonlDocs, TrecXmlQueries, TrecQrels
 from typing import NamedTuple, Dict
-from ir_datasets.util.download import RequestsDownload
 from ir_datasets.datasets.base import Dataset
-
-DATASET_URL = 'https://raw.githubusercontent.com/lamiaa404/irbbb/'
 
 class AnthologyDocument(NamedTuple):
     doc_id: str
     text: str
     
     def default_text(self):
-        return self.text
+        return str(self.text)
 
 ir_datasets.registry.register('iranthology-irbbb', Dataset(
-    JsonlDocs(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'ir_anthology.jsonl')], expected_md5='6a0405c77f92538ad6b4e17cb3cc13cb'),doc_cls=AnthologyDocument, lang='en'),
-    TrecXmlQueries(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'ir_anthology_topics.xml')], expected_md5='b12f4c4361c3c0be0562e214b06038c4'), lang='en')
+    JsonlDocs(ir_datasets.util.PackageDataFile(path='datasets_in_progress/ir_anthology.jsonl'), doc_cls=AnthologyDocument, lang='en'),
+    TrecXmlQueries(ir_datasets.util.PackageDataFile(path='datasets_in_progress/ir_anthology_topics.xml'), lang='en')
 ))
