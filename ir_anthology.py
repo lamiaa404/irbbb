@@ -13,7 +13,7 @@ class AnthologyDocument(NamedTuple):
     def default_text(self):
         return self.text
 
-ir_datasets.registry.register('ir_anthology', Dataset(
+ir_datasets.registry.register('iranthology-irbbb', Dataset(
     JsonlDocs(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'ir_anthology.jsonl')], expected_md5='f574d99c0dd0724b05f18df680a9a48d'),doc_cls=AnthologyDocument, lang='en'),
     TrecXmlQueries(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'ir_anthology_topics.xml')], expected_md5='b12f4c4361c3c0be0562e214b06038c4'), lang='en')
 ))
