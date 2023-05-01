@@ -4,12 +4,12 @@
         <description>Which papers include research on sentiment analysis in informational retrieval?</description>
         <narrative>Papers that refer to the development and implementation of algorithms and techniques that use individual user data to provide 	personalised product recommendations and search results within an e-commerce context are relevant. This includes the collection and 	analysis of user data such as browsing history, search queries, and purchase history, as well as the use of machine learning techniques to build user 	models and provide personalised recommendations.In general, topics that are not directly related to the development, implementation, or evaluation	of personalised search algorithms in e-commerce may not be relevant to this topic.</narrative>
    </topic>
-   <topic number=“2”>
+   <topic number="2">
 	<title>sentiment analysis</title>
 	<description>  Which papers include research on sentiment analysis in informational retrieval </description>
 	<narrative> Relevant papers discuss techniques of sentiment analysis (e.g. multi-model sentiment analysis using neural networks). Not relevant are 	papers on analysis that involving sentiment analysis. Not relevant are papers on analysis of factual statements.</narrative>
    </topic>
-   <topic number=“3”>
+   <topic number=3">
 	<title>informational retrieval using neural networks</title>
 	<description>  Which papers include research on using neural networks in informational retrieval </description>
 	<narrative> Relevant papers discuss using neural networks to improve the effectiveness of information retrieval systems (e.g. natural language processing, deep learning and other machine learning approaches). 	Not relevant are papers on other types of machine learning or artificial intelligence that are to specifically designed for information retrieval (e.g. reinforcement learning or computer vision).</narrative>
