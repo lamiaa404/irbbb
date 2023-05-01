@@ -4,7 +4,7 @@ from typing import NamedTuple, Dict
 from ir_datasets.util.download import RequestsDownload
 from ir_datasets.datasets.base import Dataset
 
-DATASET_URL = 'https://raw.githubusercontent.com/lamiaa404/irbbb/'
+DATASET_URL = 'https://github.com/lamiaa404/irbbb'
 
 class AnthologyDocument(NamedTuple):
     doc_id: str
