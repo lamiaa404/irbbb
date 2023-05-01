@@ -6,7 +6,7 @@ from ir_datasets.datasets.base import Dataset
 
 DATASET_URL = 'https://raw.github.com/lamiaa404/irbbb'
 
-class AnthologyDocument(NamedTuple):
+class PangramDocument(NamedTuple):
     doc_id: str
     text: str
     
