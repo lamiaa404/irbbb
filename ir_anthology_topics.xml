@@ -1,23 +1,23 @@
 <topics>
     <topic number="1">
-        <title>Personalised Search in E-commerce</title>
+        <title>personalised search in e-commerce</title>
         <description>Which papers include research on sentiment analysis in informational retrieval?</description>
-        <narrative>Papers that refer to the development and implementation of algorithms and techniques that use individual user data to provide 	personalised product recommendations and search results within an e-commerce context are relevant. This includes the collection and 	analysis of user data such as browsing history, search queries, and purchase history, as well as the use of machine learning techniques to build user 	models and provide personalised recommendations.In general, topics that are not directly related to the development, implementation, or evaluation	of personalised search algorithms in e-commerce may not be relevant to this topic.</narrative>
+        <narrative>Papers that refer to the development and implementation of algorithms and techniques that use individual user data to provide personalised product recommendations and search results within an e-commerce context are relevant. This includes the collection and 	analysis of user data such as browsing history, search queries, and purchase history, as well as the use of machine learning techniques to build user 	models and provide personalised recommendations.In general, topics that are not directly related to the development, implementation, or evaluation of personalised search algorithms in e-commerce may not be relevant to this topic.</narrative>
    </topic>
    <topic number="2">
 	<title>sentiment analysis</title>
 	<description>  Which papers include research on sentiment analysis in informational retrieval </description>
-	<narrative> Relevant papers discuss techniques of sentiment analysis (e.g. multi-model sentiment analysis using neural networks). Not relevant are 	papers on analysis that involving sentiment analysis. Not relevant are papers on analysis of factual statements.</narrative>
+	<narrative> Relevant papers discuss techniques of sentiment analysis (e.g. multi-model sentiment analysis using neural networks). Not relevant are papers on analysis that involving sentiment analysis. Not relevant are papers on analysis of factual statements.</narrative>
    </topic>
    <topic number=3">
 	<title>informational retrieval using neural networks</title>
 	<description>  Which papers include research on using neural networks in informational retrieval </description>
-	<narrative> Relevant papers discuss using neural networks to improve the effectiveness of information retrieval systems (e.g. natural language processing, deep learning and other machine learning approaches). 	Not relevant are papers on other types of machine learning or artificial intelligence that are to specifically designed for information retrieval (e.g. reinforcement learning or computer vision).</narrative>
+	<narrative> Relevant papers discuss using neural networks to improve the effectiveness of information retrieval systems (e.g. natural language processing, deep learning and other machine learning approaches). Not relevant are papers on other types of machine learning or artificial intelligence that are to specifically designed for information retrieval (e.g. reinforcement learning or computer vision).</narrative>
    </topic>
    <topic number="4">
         <title>Query log analysis</title>
         <description>Which papers include research on query log analysis in informational retrieval?</description>
-        <narrative>Papers that involves the analysis of logs of user search queries, as well as their corresponding search results and user interactions with those results are relevant. This includes insights into user 	behavior, search patterns and the use of this information to improve search engine performance and user experience.In general, topics that are not directly related to the study of user search behavior and search 	patterns, with the goal of improving search engine performance and user experience such as the study of search algorithms or system architecture and the technical details of search engine implementation are not 	relevant.</narrative>
+        <narrative>Papers that involves the analysis of logs of user search queries, as well as their corresponding search results and user interactions with those results are relevant. This includes insights into user behavior, search patterns and the use of this information to improve search engine performance and user experience.In general, topics that are not directly related to the study of user search behavior and search patterns, with the goal of improving search engine performance and user experience such as the study of search algorithms or system architecture and the technical details of search engine implementation are not relevant.</narrative>
    </topic>
 </topics>
 
