@@ -11,6 +11,6 @@ class AnthologyDocument(NamedTuple):
         return str(self.text)
 
 ir_datasets.registry.register('iranthology-irbbb', Dataset(
-    JsonlDocs(ir_datasets.util.PackageDataFile(path='datasets_in_progress/ir_anthology.jsonl'), doc_cls=AnthologyDocument, lang='en'),
+    JsonlDocs(ir_datasets.util.PackageDataFile(path='datasets_in_progress/iranthology-irbbb.jsonl'), doc_cls=AnthologyDocument, lang='en'),
     TrecXmlQueries(ir_datasets.util.PackageDataFile(path='datasets_in_progress/ir_anthology_topics.xml'), lang='en')
 ))
